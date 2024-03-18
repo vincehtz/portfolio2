@@ -1,0 +1,22 @@
+@import "vars";
+
+header {
+  height: 90px;
+  background-color: $scnd-bg;
+  border-bottom: 3px solid $bdr-non-int;
+  ul {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    li {
+      font-weight: 500;
+    }
+    li:hover {
+      color: $txt-low;
+    }
+  }
+}
