@@ -1,0 +1,24 @@
+@import "vars";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 1440px;
+  margin: auto;
+  border: 1px solid $gray-bdr-non-int;
+  background-color: #ffffff;
+  font-family: "Source Sans 3", sans-serif;
+  color: $gray-txt-high;
+  font-size: 24px;
+}
+
+h1 {
+  color: $txt-low;
+  font-family: "League Spartan", sans-serif;
+  font-size: 72px;
+  font-weight: 700;
+}
