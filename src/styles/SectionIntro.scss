@@ -1,0 +1,23 @@
+@import "vars";
+
+.section__intro {
+  min-height: 1100px;
+  padding: 0px 200px;
+  display: flex;
+  align-items: center;
+  p {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  .intro__buttons {
+    max-width: 550px;
+    display: flex;
+    justify-content: space-between;
+  }
+  img {
+    border: 3px solid $bdr-non-int;
+    width: 100%;
+    min-width: 200px;
+    border-radius: 50%;
+  }
+}
