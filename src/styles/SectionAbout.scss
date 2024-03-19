@@ -1,0 +1,12 @@
+@import "vars";
+
+.section__about {
+  min-height: 470px;
+  padding: 0px 200px;
+  p {
+    margin-top: 50px;
+    display: flex;
+    font-size: 36px;
+    text-align: center;
+  }
+}
