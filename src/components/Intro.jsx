@@ -11,9 +11,11 @@ function Intro() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do tempor
           incididunt ut labore et dolore magna aliqua.
         </p>
-        <Button />
-        <Button />
-        <Button />
+        <div className="intro__buttons">
+          <Button txt="GitHub" />
+          <Button txt="LinkedIn" />
+          <Button txt="Download CV" />
+        </div>
       </div>
       <div className="intro__picture"></div>
     </div>
