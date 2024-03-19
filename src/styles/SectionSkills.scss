@@ -1,0 +1,32 @@
+@import "vars";
+
+.section__skills {
+  min-height: 480px;
+  padding: 0px 200px;
+  .group-skills {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    div {
+      width: 300px;
+      background-color: $gray-scnd-bg;
+      padding: 10px 0px 20px 0px;
+      border-radius: 10px;
+      ul {
+        margin-top: 20px;
+        padding: 0px 20px;
+        list-style: none;
+        color: $gray-txt-low;
+        li {
+          display: flex;
+          align-items: center;
+          svg {
+            font-size: xx-large;
+            margin: 5px 0px;
+            width: 90px;
+          }
+        }
+      }
+    }
+  }
+}
