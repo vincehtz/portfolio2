@@ -1,0 +1,14 @@
+@import "vars";
+
+footer {
+  height: 120px;
+  background-color: $scnd-bg;
+  border-top: 3px solid $bdr-non-int;
+  p {
+    width: 30%;
+    margin: auto;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 80px;
+  }
+}
