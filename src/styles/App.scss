@@ -10,16 +10,32 @@ body {
   max-width: 1440px;
   margin: auto;
   border: 1px solid $gray-bdr-non-int;
-  background-color: #ffffff;
+  background-color: $gray-main-bg;
   font-family: "Source Sans 3", sans-serif;
   color: $gray-txt-high;
   font-size: 24px;
+  font-weight: 400;
 }
 
 h1 {
   color: $txt-low;
   font-family: "League Spartan", sans-serif;
   font-size: 72px;
-  font-weight: 700;
   margin-bottom: 20px;
+}
+
+h2 {
+  color: $txt-low;
+  font-family: "League Spartan", sans-serif;
+  font-size: 64px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 36px;
+  text-align: center;
+}
+h4 {
+  font-size: 24px;
+  font-weight: 400;
 }
