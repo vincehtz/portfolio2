@@ -1,14 +1,22 @@
 import React from "react";
 import Header from "../components/Header";
-import Intro from "../components/Intro";
+import SectionIntro from "../components/SectionIntro";
+import SectionAbout from "../components/SectionAbout";
+import SectionSkills from "../components/SectionSkills";
+import Footer from "../components/Footer";
+import SectionProjects from "../components/SectionProjects";
 
 function Home() {
   return (
     <React.Fragment>
       <Header />
       <main>
-        <Intro />
+        <SectionIntro />
+        <SectionAbout />
+        <SectionSkills />
+        <SectionProjects />
       </main>
+      <Footer />
     </React.Fragment>
   );
 }
