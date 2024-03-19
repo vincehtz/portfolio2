@@ -5,9 +5,9 @@ function Header() {
   return (
     <header>
       <ul>
-        <li>About me</li>
-        <li>Skills</li>
-        <li>Projects</li>
+        <li>À propos</li>
+        <li>Compétences</li>
+        <li>Projets</li>
         <li>Contact</li>
       </ul>
     </header>
