@@ -13,14 +13,15 @@ function SectionIntro() {
           incididunt ut labore et dolore magna aliqua.
         </p>
         <div className="intro__buttons">
-          <Button txt="GitHub" />
-          <Button txt="LinkedIn" />
-          <Button txt="Télécharger CV" />
+          <Button txt="GitHub" link="https://github.com/vincehtz" />
+          <Button
+            txt="LinkedIn"
+            link="https://www.linkedin.com/in/vincent-hertz-227a569b/"
+          />
+          <Button txt="Mon CV" link="./CV_VincentHertz.pdf" />
         </div>
       </div>
-      <div className="intro__picture">
-        <img src={profilePic} alt="Profile Picture" />
-      </div>
+      <img src={profilePic} alt="Profile Picture" />
     </section>
   );
 }
