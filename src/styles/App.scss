@@ -9,23 +9,23 @@
 body {
   max-width: 1440px;
   margin: auto;
-  border: 1px solid $gray-bdr-non-int;
-  background-color: $gray-main-bg;
+  border: 1px solid $light-gray-bdr-non-int;
+  background-color: $light-gray-main-bg;
   font-family: "Source Sans 3", sans-serif;
-  color: $gray-txt-high;
+  color: $light-gray-txt-high;
   font-size: 24px;
   font-weight: 400;
 }
 
 h1 {
-  color: $txt-low;
+  color: $light-txt-low;
   font-family: "League Spartan", sans-serif;
   font-size: 72px;
   margin-bottom: 20px;
 }
 
 h2 {
-  color: $txt-low;
+  color: $light-txt-low;
   font-family: "League Spartan", sans-serif;
   font-size: 64px;
   text-align: center;
@@ -38,4 +38,73 @@ h3 {
 h4 {
   font-size: 24px;
   font-weight: 400;
+}
+
+body.dark-mode {
+  border: 1px solid $dark-gray-bdr-non-int;
+  background-color: $dark-gray-main-bg;
+  color: $dark-gray-txt-high;
+  h1 {
+    color: $dark-txt-low;
+  }
+  h2 {
+    color: $dark-txt-low;
+  }
+  header {
+    background-color: $dark-scnd-bg;
+    border-bottom: 3px solid $dark-bdr-non-int;
+    color: $dark-gray-txt-low;
+    button {
+      color: $dark-txt-low;
+    }
+    button:hover {
+      background-color: $dark-comp-bg-hover;
+    }
+    button:active {
+      background-color: $dark-comp-bg-selected;
+    }
+    li:hover {
+      color: $dark-txt-low;
+    }
+  }
+  .section__intro {
+    button {
+      background-color: $dark-comp-bg-normal;
+      border: 2px solid $dark-bdr-int-normal;
+      color: $dark-gray-txt-low;
+    }
+    button:hover {
+      color: $dark-txt-low;
+      background-color: $dark-comp-bg-hover;
+      border: 2px solid $dark-bdr-int-hover;
+    }
+    button:active {
+      background-color: $dark-comp-bg-selected;
+    }
+    img {
+      border: 3px solid $dark-bdr-non-int;
+    }
+  }
+  .group-skills {
+    div {
+      background-color: $dark-gray-comp-bg-normal;
+      ul {
+        color: $dark-gray-txt-low;
+      }
+    }
+  }
+  .group__projects {
+    article {
+      border: 2px solid $dark-gray-bdr-int-normal;
+      background-color: $dark-gray-comp-bg-normal;
+    }
+    article:hover {
+      background-color: $dark-comp-bg-hover;
+      border: 2px solid $dark-bdr-int-hover;
+    }
+  }
+  footer {
+    background-color: $dark-scnd-bg;
+    border-top: 3px solid $dark-bdr-non-int;
+  }
 }

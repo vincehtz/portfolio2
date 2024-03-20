@@ -1,26 +1,55 @@
 // VARIABLES //
-$main-bg: #fdfdff;
-$scnd-bg: #f8f8ff;
-$comp-bg-normal: #f0f1fe;
-$comp-bg-hover: #e6e7ff;
-$comp-bg-selected: #dadcff;
-$bdr-non-int: #cbcdff;
-$bdr-int-normal: #b8baf8;
-$bdr-int-hover: #9b9ef0;
-$solid-bg-normal: #5b5bd6;
-$solid-bg-hover: #5151cd;
-$txt-low: #5753c6;
-$txt-high: #272962;
 
-$gray-main-bg: #fcfcfd;
-$gray-scnd-bg: #f9f9fb;
-$gray-comp-bg-normal: #f0f0f3;
-$gray-comp-bg-hover: #e8e8ec;
-$gray-comp-bg-selected: #e0e1e6;
-$gray-bdr-non-int: #d9d9e0;
-$gray-bdr-int-normal: #cdced6;
-$gray-bdr-int-hover: #b9bbc6;
-$gray-solid-bg-normal: #8b8d98;
-$gray-solid-bg-hover: #80838d;
-$gray-txt-low: #60646c;
-$gray-txt-high: #1c2024;
+// LIGHT MODE //
+$light-main-bg: #fdfdff;
+$light-scnd-bg: #f8f8ff;
+$light-comp-bg-normal: #f0f1fe;
+$light-comp-bg-hover: #e6e7ff;
+$light-comp-bg-selected: #dadcff;
+$light-bdr-non-int: #cbcdff;
+$light-bdr-int-normal: #b8baf8;
+$light-bdr-int-hover: #9b9ef0;
+$light-solid-bg-normal: #5b5bd6;
+$light-solid-bg-hover: #5151cd;
+$light-txt-low: #5753c6;
+$light-txt-high: #272962;
+
+$light-gray-main-bg: #fcfcfd;
+$light-gray-scnd-bg: #f9f9fb;
+$light-gray-comp-bg-normal: #f0f0f3;
+$light-gray-comp-bg-hover: #e8e8ec;
+$light-gray-comp-bg-selected: #e0e1e6;
+$light-gray-bdr-non-int: #d9d9e0;
+$light-gray-bdr-int-normal: #cdced6;
+$light-gray-bdr-int-hover: #b9bbc6;
+$light-gray-solid-bg-normal: #8b8d98;
+$light-gray-solid-bg-hover: #80838d;
+$light-gray-txt-low: #60646c;
+$light-gray-txt-high: #1c2024;
+
+//DARK MODE //
+$dark-main-bg: #13131e;
+$dark-scnd-bg: #171625;
+$dark-comp-bg-normal: #202248;
+$dark-comp-bg-hover: #262a65;
+$dark-comp-bg-selected: #303374;
+$dark-bdr-non-int: #3d3e82;
+$dark-bdr-int-normal: #4a4a95;
+$dark-bdr-int-hover: #5958b1;
+$dark-solid-bg-normal: #5b5bd6;
+$dark-solid-bg-hover: #6e6ade;
+$dark-txt-low: #b1a9ff;
+$dark-txt-high: #e0dffe;
+
+$dark-gray-main-bg: #111113;
+$dark-gray-scnd-bg: #18191b;
+$dark-gray-comp-bg-normal: #212225;
+$dark-gray-comp-bg-hover: #272a2d;
+$dark-gray-comp-bg-selected: #2e3135;
+$dark-gray-bdr-non-int: #363a3f;
+$dark-gray-bdr-int-normal: #43484e;
+$dark-gray-bdr-int-hover: #43484e;
+$dark-gray-solid-bg-normal: #696e77;
+$dark-gray-solid-bg-hover: #777b84;
+$dark-gray-txt-low: #b0b4ba;
+$dark-gray-txt-high: #edeef0;

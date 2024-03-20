@@ -6,8 +6,26 @@ header {
   max-width: 1438px;
   width: 100%;
   height: 90px;
-  background-color: $scnd-bg;
-  border-bottom: 3px solid $bdr-non-int;
+  padding: 20px 50px;
+  background-color: $light-scnd-bg;
+  border-bottom: 3px solid $light-bdr-non-int;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: $light-gray-txt-low;
+  button {
+    padding: 5px 10px;
+    color: $light-txt-low;
+    background-color: inherit;
+    border: none;
+  }
+  button:hover {
+    background-color: $light-comp-bg-hover;
+    border: none;
+  }
+  button:active {
+    background-color: $light-comp-bg-selected;
+  }
   ul {
     width: 50%;
     height: 100%;
@@ -17,10 +35,13 @@ header {
     justify-content: space-between;
     align-items: center;
     li {
-      font-weight: 500;
+      font-weight: 700;
     }
     li:hover {
-      color: $txt-low;
+      color: $light-txt-low;
     }
+  }
+  svg {
+    font-size: xx-large;
   }
 }

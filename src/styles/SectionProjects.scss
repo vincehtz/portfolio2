@@ -8,7 +8,7 @@
     display: flex;
     gap: 50px;
     article {
-      border: 2px solid $gray-bdr-int-normal;
+      border: 2px solid $light-gray-bdr-int-normal;
       width: 380px;
       min-height: 680px;
       padding: 20px 20px;
@@ -17,7 +17,7 @@
       flex-direction: column;
       justify-content: space-between;
       align-items: center;
-      background-color: $gray-comp-bg-normal;
+      background-color: $light-gray-comp-bg-normal;
       img {
         width: 100%;
         height: 35%;
@@ -33,8 +33,8 @@
       }
     }
     article:hover {
-      background-color: $comp-bg-hover;
-      border: 2px solid $bdr-int-hover;
+      background-color: $light-comp-bg-hover;
+      border: 2px solid $light-bdr-int-hover;
     }
   }
 }

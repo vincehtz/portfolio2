@@ -2,28 +2,29 @@
 
 .section__skills {
   min-height: 480px;
-  padding: 0px 200px;
+  padding: 0px 170px;
   .group-skills {
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
     div {
-      width: 300px;
-      background-color: $gray-scnd-bg;
-      padding: 10px 0px 20px 0px;
+      max-width: 300px;
+      width: 30%;
+      background-color: $light-gray-comp-bg-normal;
+      padding: 20px;
       border-radius: 10px;
       ul {
         margin-top: 20px;
-        padding: 0px 20px;
         list-style: none;
-        color: $gray-txt-low;
+        color: $light-gray-txt-low;
         li {
           display: flex;
           align-items: center;
           svg {
             font-size: xx-large;
             margin: 5px 0px;
-            width: 90px;
+            width: 100%;
+            max-width: 90px;
           }
         }
       }

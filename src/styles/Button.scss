@@ -3,17 +3,19 @@
 button {
   padding: 5px 20px;
   border-radius: 10px;
-  background-color: $comp-bg-normal;
-  border: 3px solid $bdr-int-normal;
-  color: $gray-txt-low;
+  background-color: $light-comp-bg-normal;
+  border: 2px solid $light-bdr-int-normal;
+  color: $light-gray-txt-low;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
 }
 button:hover {
-  color: $txt-low;
-  background-color: $comp-bg-hover;
-  border: 3px solid $bdr-int-hover;
+  color: $light-txt-low;
+  background-color: $light-comp-bg-hover;
+  border: 2px solid $light-bdr-int-hover;
 }
 button:active {
-  background-color: $comp-bg-selected;
+  background-color: $light-comp-bg-selected;
 }

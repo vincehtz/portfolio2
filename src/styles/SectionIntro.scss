@@ -5,17 +5,18 @@
   padding: 0px 200px;
   display: flex;
   align-items: center;
+  gap: 10px;
   p {
     font-size: 36px;
     margin-bottom: 30px;
   }
   .intro__buttons {
-    max-width: 550px;
+    max-width: 500px;
     display: flex;
     justify-content: space-between;
   }
   img {
-    border: 3px solid $bdr-non-int;
+    border: 3px solid $light-bdr-non-int;
     width: 100%;
     min-width: 200px;
     border-radius: 50%;
