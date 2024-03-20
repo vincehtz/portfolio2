@@ -1,6 +1,7 @@
 import React from "react";
 import kasaPic from "../assets/kasa.png";
 import mvgPic from "../assets/mvg.png";
+import bookiPic from "../assets/booki.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faReact,
@@ -24,7 +25,7 @@ function SectionProjects() {
       <div className="group__projects">
         <article>
           <h3>Booki</h3>
-          <img src={kasaPic} alt="Aperçu projet Kasa" />
+          <img src={bookiPic} alt="Aperçu projet Booki" />
           <div className="project__logos">
             {html}
             {css}
@@ -50,7 +51,7 @@ function SectionProjects() {
         </article>
         <article>
           <h3>MVG</h3>
-          <img src={mvgPic} alt="Aperçu projet Kasa" />
+          <img src={mvgPic} alt="Aperçu projet Mon Vieux Grimmoire" />
           <div className="project__logos">{node}</div>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
