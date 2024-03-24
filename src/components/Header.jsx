@@ -2,7 +2,6 @@ import React from "react";
 import "../styles/Header.scss";
 import Button from "./Button";
 import DarkMode from "./DarkMode";
-import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -11,13 +10,19 @@ function Header() {
       <nav>
         <ul>
           <li>
-            <Link to="/about">À propos</Link>
+            <a href="#about" className="nav__link">
+              À propos
+            </a>
           </li>
           <li>
-            <Link to="/">Compétences</Link>
+            <a href="#skills" className="nav__link">
+              Compétences
+            </a>
           </li>
           <li>
-            <Link to="/">Projets</Link>
+            <a href="#projects" className="nav__link">
+              Projets
+            </a>
           </li>
         </ul>
       </nav>
