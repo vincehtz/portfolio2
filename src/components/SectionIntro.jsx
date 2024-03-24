@@ -5,13 +5,10 @@ import profilePic from "../assets/profile-pic.jpeg";
 
 function SectionIntro() {
   return (
-    <section className="section__intro">
+    <section id="intro" className="section__intro">
       <div className="intro__info">
         <h1>Vincent Hertz</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do tempor
-          incididunt ut labore et dolore magna aliqua.
-        </p>
+        <p>Developpeur Web Frontend</p>
         <div className="intro__buttons">
           <Button txt="GitHub" link="https://github.com/vincehtz" />
           <Button

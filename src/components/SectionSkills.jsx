@@ -21,7 +21,7 @@ function SectionSkills() {
   const figma = <FontAwesomeIcon icon={faFigma} />;
 
   return (
-    <section className="section__skills">
+    <section id="skills" className="section__skills">
       <h2>Compétences</h2>
       <div className="group-skills">
         <div className="Frontend">

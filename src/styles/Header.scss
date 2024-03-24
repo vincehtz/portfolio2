@@ -26,21 +26,33 @@ header {
   button:active {
     background-color: $light-comp-bg-selected;
   }
-  ul {
+  nav {
     width: 50%;
-    height: 100%;
-    margin: auto;
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    li {
-      font-weight: 700;
-    }
-    li:hover {
-      color: $light-txt-low;
+
+    ul {
+      height: 100%;
+      margin: auto;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      li {
+        font-weight: 700;
+        cursor: pointer;
+        .nav__link {
+          text-decoration: none;
+          color: inherit;
+          .active {
+            color: red;
+          }
+        }
+      }
+      li:hover {
+        color: $light-txt-low;
+      }
     }
   }
+
   svg {
     font-size: xx-large;
   }

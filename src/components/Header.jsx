@@ -7,12 +7,26 @@ function Header() {
   return (
     <header>
       <Button txt="VH" />
-      <ul>
-        <li>À propos</li>
-        <li>Compétences</li>
-        <li>Projets</li>
-        <li>Contact</li>
-      </ul>
+      <nav>
+        <ul>
+          <li>
+            <a href="#about" className="nav__link">
+              À propos
+            </a>
+          </li>
+          <li>
+            <a href="#skills" className="nav__link">
+              Compétences
+            </a>
+          </li>
+          <li>
+            <a href="#projects" className="nav__link">
+              Projets
+            </a>
+          </li>
+        </ul>
+      </nav>
+
       <DarkMode />
     </header>
   );

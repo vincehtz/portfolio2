@@ -3,14 +3,13 @@ import "../styles/SectionAbout.scss";
 
 function SectionAbout() {
   return (
-    <section className="section__about">
+    <section id="about" className="section__about">
       <h2>A propos de moi</h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Platea dictumst
-        vestibulum rhoncus est pellentesque elit ullamcorper. Nunc id cursus
-        metus aliquam eleifend mi. Sagittis eu volutpat odio facilisis. Vel quam
-        elementum pulvinar etiam non quam lacus.
+        Je suis un développeur web autodidacte avec une solide expérience dans
+        la conception et le développement de sites web et dapplications web
+        interactives. Ma passion pour le codage a commencé dès mon plus jeune
+        âge
       </p>
     </section>
   );
