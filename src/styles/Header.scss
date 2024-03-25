@@ -13,6 +13,13 @@ header {
   align-items: center;
   justify-content: space-between;
   color: $light-gray-txt-low;
+  @media (max-width: 1000px) {
+    font-size: 20px;
+  }
+  @media (max-width: 700px) {
+    font-size: 14px;
+    padding: 20px 20px;
+  }
   button {
     padding: 5px 10px;
     color: $light-txt-low;
@@ -28,7 +35,9 @@ header {
   }
   nav {
     width: 50%;
-
+    @media (max-width: 700px) {
+      width: 60%;
+    }
     ul {
       height: 100%;
       margin: auto;
@@ -55,5 +64,8 @@ header {
 
   svg {
     font-size: xx-large;
+    @media (max-width: 700px) {
+      font-size: x-large;
+    }
   }
 }

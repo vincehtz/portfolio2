@@ -7,6 +7,12 @@
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
+    @media (max-width: 700px) {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      margin-bottom: 50px;
+    }
     div {
       max-width: 300px;
       width: 30%;
@@ -14,6 +20,10 @@
       border: 1px solid $light-gray-bdr-non-int;
       padding: 20px;
       border-radius: 10px;
+      @media (max-width: 700px) {
+        width: 100%;
+        max-width: inherit;
+      }
       ul {
         margin-top: 20px;
         list-style: none;
@@ -26,9 +36,27 @@
             margin: 5px 0px;
             width: 100%;
             max-width: 90px;
+            @media (max-width: 1200px) {
+              max-width: 50px;
+            }
+            @media (max-width: 1000px) {
+              max-width: 50px;
+            }
           }
         }
       }
     }
+  }
+  @media (max-width: 1200px) {
+    padding: 0px 150px;
+  }
+  @media (max-width: 1000px) {
+    padding: 0px 100px;
+  }
+  @media (max-width: 700px) {
+    padding: 0px 50px;
+  }
+  @media (max-width: 500px) {
+    padding: 0px 30px;
   }
 }
