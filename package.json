@@ -52,5 +52,6 @@
     "eslint": "^8.57.0",
     "eslint-plugin-react": "^7.34.0",
     "gh-pages": "^6.1.1"
-  }
+  },
+  "homepage": "http://vincehtz.github.io/portfolio2"
 }
