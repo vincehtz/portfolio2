@@ -6,10 +6,12 @@ function SectionAbout() {
     <section id="about" className="section__about">
       <h2>A propos de moi</h2>
       <p>
-        Je suis un développeur web autodidacte avec une solide expérience dans
-        la conception et le développement de sites web et dapplications web
-        interactives. Ma passion pour le codage a commencé dès mon plus jeune
-        âge test
+        Passionné par le codage et le technologies web, j’ai décidé d’apprendre
+        la programmation, suite à une première expérience dans les media. Après
+        plusieurs mois de formations et l’optention d’un diplôme dans le
+        domaine, j’ai acquis de solides compétences techniques en JavaScript,
+        HTML, CSS, ainsi qu’avec des frameworks et bibliothèques populaires
+        comme React.js et Node.js, au travers d’une variété de projets réalisés.
       </p>
     </section>
   );

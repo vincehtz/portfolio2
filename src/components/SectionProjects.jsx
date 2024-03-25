@@ -36,9 +36,9 @@ function SectionProjects() {
               {css}
             </div>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua aoihf
-              iuapo .
+              Intégration HTML et CSS de l&apos;interface responsive d&apos;un
+              site de recherche d&apos;hébergements et d&apos;activités par
+              ville.
             </p>
           </article>
         </a>
@@ -55,9 +55,9 @@ function SectionProjects() {
               {react}
             </div>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua aoihf
-              iuapo fiboixaznur.
+              Implémentation du front-end d’une application de location
+              d’appartements entre particuliers, avec React et React Router pour
+              créer une expérience utilisateur moderne et réactive.
             </p>
           </article>
         </a>
@@ -71,9 +71,8 @@ function SectionProjects() {
             <img src={mvgPic} alt="Aperçu projet Mon Vieux Grimmoire" />
             <div className="project__logos">{node}</div>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua aoihf
-              iuapo fiboixaznur.
+              Développement du back-end d’un site de notation de livres via un
+              serveur Express et une base de données MongoDB.
             </p>
           </article>
         </a>
