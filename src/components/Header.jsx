@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/Header.scss";
 import Button from "./Button";
 import DarkMode from "./DarkMode";
+import { HashLink } from "react-router-hash-link";
 
 function Header() {
   return (
@@ -10,19 +11,19 @@ function Header() {
       <nav>
         <ul>
           <li>
-            <a href="#about" className="nav__link">
+            <HashLink to="/#about" className="nav__link">
               À propos
-            </a>
+            </HashLink>
           </li>
           <li>
-            <a href="#skills" className="nav__link">
+            <HashLink to="/#skills" className="nav__link">
               Compétences
-            </a>
+            </HashLink>
           </li>
           <li>
-            <a href="#projects" className="nav__link">
+            <HashLink to="/#projects" className="nav__link">
               Projets
-            </a>
+            </HashLink>
           </li>
         </ul>
       </nav>

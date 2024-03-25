@@ -9,6 +9,9 @@ button {
   font-size: 24px;
   font-weight: 500;
   font-family: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
   @media (max-width: 1200px) {
     font-size: 22px;
